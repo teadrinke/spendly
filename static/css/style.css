@@ -705,7 +705,7 @@ a { color: inherit; text-decoration: none; }
 }
 
 @media (max-width: 600px) {
-    .nav-links a:not(.nav-cta) { display: none; }
+    .nav-links a:not(.nav-cta):not(.nav-signout) { display: none; }
     .hero { padding: 3rem 1rem 3rem; }
     .hero-actions .btn-hero { font-size: 1.1rem; padding: 0.9rem 1.75rem; }
     .dash { padding: 1rem; }
